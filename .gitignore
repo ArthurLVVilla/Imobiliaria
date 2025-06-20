@@ -1,0 +1,32 @@
+# Ignora dependências do Composer
+/vendor/
+
+# Ignora arquivos de ambiente
+.env
+
+# Ignora arquivos temporários do sistema
+*.log
+*.cache
+*.tmp
+*.swp
+
+# Ignora diretórios criados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos/diretórios do Docker
+docker-compose.override.yml
+**/docker/*.log
+
+# Ignora arquivos gerados pelo IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Ignora arquivos de cache do PHP
+.phpunit.result.cache
+.php_cs.cache
+
+# Ignora arquivos de build (se existirem)
+build/
+dist/

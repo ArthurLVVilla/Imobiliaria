@@ -1,0 +1,17 @@
+{
+    "name": "arthurvvilla/imobiliaria",
+    "description": "Projeto de Imobiliaria com PHP8",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arthurvvilla\\Imobiliaria\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arthur"
+        }
+    ],
+    "require": {}
+}

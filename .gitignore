@@ -1,5 +1,5 @@
 # Ignora dependências do Composer
-/vendor/
+backend/vendor/
 
 # Ignora arquivos de ambiente
 .env
